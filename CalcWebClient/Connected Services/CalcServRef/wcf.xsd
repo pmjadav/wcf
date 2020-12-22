@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://ddu.ac.in/wcf" elementFormDefault="qualified" targetNamespace="http://ddu.ac.in/wcf" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Add">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="op1" type="xs:double" />
+        <xs:element minOccurs="0" name="op2" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Mul">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="op1" type="xs:double" />
+        <xs:element minOccurs="0" name="op2" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MulResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MulResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

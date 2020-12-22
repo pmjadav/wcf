@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcFormClient", "CalcFormC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcConsoleHost2", "CalcConsoleHost2\CalcConsoleHost2.csproj", "{21CF8F20-326C-48AA-BC24-43EA45A795F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcWebClient", "CalcWebClient\CalcWebClient.csproj", "{6A880081-2BD5-4DB6-ADC9-11F12460CA9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{21CF8F20-326C-48AA-BC24-43EA45A795F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21CF8F20-326C-48AA-BC24-43EA45A795F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21CF8F20-326C-48AA-BC24-43EA45A795F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A880081-2BD5-4DB6-ADC9-11F12460CA9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A880081-2BD5-4DB6-ADC9-11F12460CA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A880081-2BD5-4DB6-ADC9-11F12460CA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A880081-2BD5-4DB6-ADC9-11F12460CA9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

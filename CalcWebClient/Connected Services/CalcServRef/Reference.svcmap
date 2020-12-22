@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fc27ae47-2957-4f45-b2a4-f82266946839" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/Calculator/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="wcf.wsdl" MetadataType="Wsdl" ID="d6f992cb-c7ea-4687-9206-6f803cc29004" SourceId="1" SourceUrl="http://localhost:8000/Calculator/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="1ba2089c-38a8-4c24-ae77-62446d065ece" SourceId="1" SourceUrl="http://localhost:8000/Calculator/mex" />
+    <MetadataFile FileName="wcf.xsd" MetadataType="Schema" ID="7b0afc75-d916-4466-80de-6a86ff4ee2e7" SourceId="1" SourceUrl="http://localhost:8000/Calculator/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="10ecc12d-a5d2-419c-b69d-2edff4e2a838" SourceId="1" SourceUrl="http://localhost:8000/Calculator/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
